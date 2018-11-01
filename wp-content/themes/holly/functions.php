@@ -10,11 +10,48 @@
 		//register a slide
 		
 
+      $arg = array(
+        'labels' => array(
+          'name' => 'Quad' ,
+          'singular_name' => 'Quad',
+          'menu_name' => 'Quad'
+        ),
+        'public' => true,
+        'show_in_nav_menues' => true,
+    );
+    register_post_type( 'quad',$arg);
+
+    $arg = array(
+        'labels' => array(
+          'name' => 'Hero' ,
+          'singular_name' => 'Hero',
+          'menu_name' => 'Hero'
+        ),
+        'public' => true,
+        'show_in_nav_menues' => true,
+    );
+    register_post_type( 'hero',$arg);
+
+    $arg = array(
+        'labels' => array(
+          'name' => 'Contact' ,
+          'singular_name' => 'Contact',
+          'menu_name' => 'Contact'
+        ),
+        'public' => true,
+        'show_in_nav_menues' => true,
+    );
+    register_post_type( 'contact',$arg);
+
+    $arg = array(
+      'label' => 'Type',
+      'rewrite' => array( 'slug' => 'type' ),
+      'hierarchical' => true,
+    );
+    register_taxonomy('type','contact',$arg);
 
 
-	}
-
-
+}
 
 	add_action('init','register_resources');
 

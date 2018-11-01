@@ -19,7 +19,7 @@
     <div class="container text-center">
       <nav class="navbar">
         <a class="ml-auto mr-auto" href="https://www.froala.com">
-            <img src="dist/imgs/logo.svg" height="70" alt="image">
+            <img src="<?php echo get_bloginfo('template_directory');?>/dist/imgs/logo.svg" height="70" alt="image">
           </a>
       </nav>
     </div>
