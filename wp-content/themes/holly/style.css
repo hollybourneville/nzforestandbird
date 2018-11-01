@@ -46,3 +46,7 @@ h1, h3 {
 	color:#444444 !important;
 	border: solid 2px #2E7D32;
 }
+
+.fdb-block .fdb-touch{
+	border-top: none !important;
+}

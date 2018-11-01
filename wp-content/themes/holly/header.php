@@ -18,7 +18,7 @@
   <header>
     <div class="container text-center">
       <nav class="navbar">
-        <a class="ml-auto mr-auto" href="https://www.froala.com">
+        <a class="ml-auto mr-auto" href="http://localhost/formativeforestandbird/">
             <img src="<?php echo get_bloginfo('template_directory');?>/dist/imgs/logo.svg" height="70" alt="image">
           </a>
       </nav>

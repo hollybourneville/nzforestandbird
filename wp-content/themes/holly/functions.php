@@ -34,6 +34,17 @@
 
     $arg = array(
         'labels' => array(
+          'name' => 'Features' ,
+          'singular_name' => 'Feature',
+          'menu_name' => 'Features'
+        ),
+        'public' => true,
+        'show_in_nav_menues' => true,
+    );
+    register_post_type( 'feature',$arg);  
+
+    $arg = array(
+        'labels' => array(
           'name' => 'Contact' ,
           'singular_name' => 'Contact',
           'menu_name' => 'Contact'
