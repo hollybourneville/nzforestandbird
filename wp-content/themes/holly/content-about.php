@@ -4,7 +4,7 @@
         <div class="row justify-content-center">
           <div class="col col-md-8 text-center">
             <h1><?php the_title(); ?></h1>
-            <div class="text-h3"><?php the_content(); ?><a href="https://www.froala.com">World of Grammar</a>.</div>
+            <div class="text-h3"><?php the_content(); ?></div>
           </div>
         </div>
       </div>
@@ -20,7 +20,7 @@
               <h2><strong><?php the_field('second_title'); ?></strong></h2>
               <div class="text-h3"><?php the_field('second_paragraph'); ?></div>
     
-              <p class="text-h3 mt-4"><a href="https://www.froala.com">Read More</a></p>
+              <p class="text-h3 mt-4"><a href="https://secure.flo2cash.co.nz/donations/ForestAndBirdMembership/DonateSecure.aspx">Read More</a></p>
             </div>
           </div>
         </div>

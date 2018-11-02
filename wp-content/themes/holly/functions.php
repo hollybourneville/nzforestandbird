@@ -61,6 +61,17 @@
     );
     register_taxonomy('type','contact',$arg);
 
+    $arg = array(
+        'labels' => array(
+          'name' => 'Volunteer' ,
+          'singular_name' => 'Volunteer',
+          'menu_name' => 'Volunteer'
+        ),
+        'public' => true,
+        'show_in_nav_menues' => true,
+    );
+    register_post_type( 'volunteer',$arg);
+
 
 }
 

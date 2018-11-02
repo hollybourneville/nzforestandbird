@@ -33,7 +33,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	background-color: #8BC34A !important;
 }
 
-h1, h3 {
+h3 a{
+	color:#2E7D32 !important;
+}
+
+p a{
+	color:#2E7D32 !important;
+}
+
+h1, h3, h2 {
 	color:#2E7D32 !important;
 }
 
@@ -49,4 +57,12 @@ h1, h3 {
 
 .fdb-block .fdb-touch{
 	border-top: none !important;
+}
+
+.growImg{
+	transition: border-radius 0.3s;
+
+}
+.growImg:hover{
+	border-radius: 50%;
 }

@@ -1,5 +1,5 @@
 <!-- Feature 4 -->
-    <section class="fdb-block bg-dark" style="background-image: url(imgs/bg_0.svg)">
+    <section class="fdb-block bg-dark" style="background-image: url(<?php echo get_bloginfo('template_directory');?>/dist/imgs/fish.jpg)">
       <div class="container">
         <div class="row">
           <div class="col text-center">

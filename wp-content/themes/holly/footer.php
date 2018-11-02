@@ -97,16 +97,20 @@
       //MixitUp
       $(function() {
 
+        // on a links with the data-filter - on click function event
         $('a[data-filter]').on('click',function(e){
 
+          //dont want it to jump
           e.preventDefault();
           var filter = $(this).data('filter');
-
-          $('#contacts>div').fadeOut();
-          $('#contacts>'+filter).fadeIn();
+          //div directly inside the contacts to fade out
+          $('#contacts>div').hide();
+          //contacts with the correct filter fade in
+          $('#contacts>'+filter).show();
         });
         
       });
+
     });
   </script>
   <?php wp_footer(); ?>
