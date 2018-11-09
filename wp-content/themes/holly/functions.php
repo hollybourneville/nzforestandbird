@@ -1,4 +1,6 @@
+
 <?php 
+ob_start();
 
 	//register resources
 
@@ -41,7 +43,18 @@
         'public' => true,
         'show_in_nav_menues' => true,
     );
-    register_post_type( 'feature',$arg);  
+    register_post_type( 'feature',$arg); 
+
+     $arg = array(
+        'labels' => array(
+          'name' => 'Staff' ,
+          'singular_name' => 'Staff',
+          'menu_name' => 'Staff'
+        ),
+        'public' => true,
+        'show_in_nav_menues' => true,
+    );
+    register_post_type( 'staff',$arg); 
 
     $arg = array(
         'labels' => array(
